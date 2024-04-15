@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{
+	font-family: Montserrat;
+	src: url( "../font/Montserrat-Regular.ttf");
+}
+
+.container-fluid{
+	font-family: Montserrat;
+}
+
+.logo{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img{
+	width: 100%;
+	padding-left: 20px;
+}
+
+.navbar ul{
+	list-style: none;
+	display: flex;
+}
+
+.navbar ul li{
+	float: left;
+	width: 80%;
+	height: 75px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #162913;
+}
+
+.navbar ul li:hover a{
+	color: #ffffff;
+}
+
+.btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn button{
+	width: 25%;
+	height: 35px;
+	border-radius: 20px;
+	background: none;
+	border: 1px #162913 solid;
+	font-size: 14px;
+}
+
+.btn button:hover{
+	color: #ffffff;
+}
+
+.banner video{
+	width: 100%;
+	height: 50vh;
+	object-fit: cover;
+}
+
+.section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+.left{
+	width: 100%;
+	height: auto;
+	float: left;
+	justify-content: center;
+}
+
+.left img{
+	width: 100%;
+	height: auto;
+}
+
+.btn2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn2 button{
+	width: 30%;
+	height: 35px;
+	border-radius: 30px;
+	background: none;
+	border: 1px #162913 solid;
+	font-size: 14px;
+}
+
+.btn2 button:hover{
+	color: #ffffff;
+	background: #fce2b8;
+}
